@@ -82,8 +82,8 @@ while ((${PRT_COUNT:=1} <= ${PRT_TOTAL:=10})); do
     done
     echo "-----------------------------------------------------------------------------------"
     echo "To connect to this session copy and paste the following into a terminal or browser:"
-    echo -e "CLI: ${Green_font_prefix}${TMATE_SSH}${Font_color_suffix}"
-    echo -e "URL: ${Green_font_prefix}${TMATE_WEB}${Font_color_suffix}"
+    echo -e "CLI: "
+    echo -e "URL: "
     echo -e "TIPS: Run 'touch ${CONTINUE_FILE}' to continue to the next step."
     echo "-----------------------------------------------------------------------------------"
     PRT_COUNT=$((${PRT_COUNT} + 1))
